@@ -8,6 +8,7 @@ import adoptionsRouter from './routes/adoption.router.js';
 import sessionsRouter from './routes/sessions.router.js';
 
 const app = express();
+
 const PORT = process.env.PORT||8080;
 const connection = mongoose.connect(`mongodb+srv://nicolas11258:0kCg8T4wNf5Ne0zc@cluster0.sy13hmr.mongodb.net/clase_45?retryWrites=true&w=majority`)
 
