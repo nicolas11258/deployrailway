@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "test": "mocha test/supertest.test.js"
+    "test": "mocha test/supertest.test.js",
+    "build": "mkdir public && mkdir public/src && cp -r ./src ./public/src cp -r ./package.json"
   },
   "keywords": [],
   "author": "",
